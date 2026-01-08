@@ -76,22 +76,18 @@ input, select, button {
   width: 100%;
 }
 
-/* BUTTON */
+
 .submit-btn {
   cursor: pointer;
 }
 
-/* FOOTER */
+
 .footer {
   text-align: center;
   padding: 1rem;
 }
 
-/* ========================= */
-/* RESPONSIVE BREAKPOINTS */
-/* ========================= */
 
-/* TABLET */
 @media (max-width: 900px) {
   .form-row {
     flex-direction: column;
@@ -102,7 +98,7 @@ input, select, button {
   }
 }
 
-/* PHONE */
+
 @media (max-width: 480px) {
   .navbar {
     flex-direction: column;
@@ -112,4 +108,5 @@ input, select, button {
   .form-wrapper {
     padding: 1.2rem;
   }
+
 }
